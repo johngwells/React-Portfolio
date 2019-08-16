@@ -30,6 +30,7 @@ class App extends Component {
         }
         <hr />
         <Projects />
+        <hr />
         <div>
           <Icons />
         </div>

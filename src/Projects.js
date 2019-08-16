@@ -3,8 +3,6 @@ import PROJECTS from './data/projects';
 
 class Project extends Component {
   render() {
-    console.log('this.props', this.props)
-
     // Destructing syntax
     // instead of const title = this.props.project.title 
     // and for all others image description link

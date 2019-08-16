@@ -4,11 +4,12 @@ import ICONS from './data/icons';
 
 class Icon extends Component {
   render() {
-    const { image, link} = this.props.icons;
+    console.log('this.props', this.props)
+    const { image, link} = this.props.icon;
 
     return (
-      <div style={{ display: 'inline-block', width: 15, margin: 10}}>
-        <a href={link}><img src={image} alt='icon' style={{ height: 30, width: 30}} /></a>
+      <div style={{ display: 'inline-block'}}>
+        <a href={link}><img src={image} alt='icon' style={{ height: 40, width: 40, margin: 10}} /></a>
       </div>
     )
   }
@@ -18,12 +19,12 @@ class Icons extends Component {
   render() {
     return (
       <div>
-        <h3>Contact:</h3>
+        <h2>Conect With Me!</h2>
         <div>
           {
           ICONS.map((ICON) => {
             return (
-              <Icon key={ICON.id} icons={ICON}/>
+              <Icon key={ICON.id} icon={ICON} />
             );
           })
         }
