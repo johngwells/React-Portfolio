@@ -19,7 +19,7 @@ class Icons extends Component {
   render() {
     return (
       <div>
-        <h2>Conect With Me!</h2>
+        <h2>Connect With Me!</h2>
         <div>
           {
           ICONS.map((ICON) => {
