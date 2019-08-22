@@ -15,7 +15,7 @@ const PROJECTS = [
     id: 2,
     title: 'My API',
     description: 'A REST API built from scratch with GET and POST requsts!',
-    link: 'https://github.com/johngwells/React-Portfolio',
+    link: 'https://github.com/johngwells/react-spotify',
     image: project2
   },
   {
