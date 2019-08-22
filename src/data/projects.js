@@ -13,8 +13,8 @@ const PROJECTS = [
   },
   {
     id: 2,
-    title: 'My API',
-    description: 'A REST API built from scratch with GET and POST requsts!',
+    title: 'Music Finder',
+    description: 'Spotify API search profiles & play music. Using core concepts with ReactJS',
     link: 'https://github.com/johngwells/react-spotify',
     image: project2
   },

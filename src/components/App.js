@@ -3,7 +3,6 @@ import Projects from './Projects';
 import Icons from './Icons';
 import profile from '../assets/profile.jpg';
 import Title from './Title';
-import Jokes from './Jokes';
 
 class App extends Component {
   state = { displayBio: false};
